@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/styles.css">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+	<script>//livereload
+        document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')
+    </script>
+</head>
+<body>
+  <h1> Контакт </h1>
+	<form action="#!">
+		<section class="form__section">
+			<h3 class="form__section_title">User details</h3>
+
+			<label for="inp" class="inp">
+			  <input type="text" id="inp" class="margined" placeholder="&nbsp;" required>
+			  <span class="label">Full name </span>
+			  <span class="focus-bg"></span>
+			</label>
+			<br>
+			<label for="inp" class="inp">
+			  <input type="Date" id="inp" class="margined" placeholder="&nbsp;" required>
+			  <span class="label">Your birthday </span>
+			  <span class="focus-bg"></span>
+			</label>
+			<br>
+			<label for="inp" class="inp">
+			  <input type="text" id="gender" class="margined" placeholder="&nbsp;">
+			  <span class="label">Gender</span>
+			  <span class="focus-bg"></span>
+			</label>
+			<br>
+			<label for="inp" class="inp">
+				<input type="text" id="country" class="margined" placeholder="&nbsp;" required>
+				<span class="label">Country </span>
+				<span class="focus-bg"></span>
+			</label>
+
+			<label for="inp" class="inp">
+				<input type="phone" id="phone" class="margined" placeholder="&nbsp;" required>
+				<span class="label">Phone </span>
+				<span class="focus-bg"></span>
+			</label>
+			<br>
+
+			<label for="inp" class="inp">
+			  <span class="bio__label">Bio</span><br>
+			  <textarea type="text" placeholder="&nbsp;" class="textarea"></textarea><br>
+			  <span class="some_info">Tell us about yourself</span>
+			</label>
+      <br><br><br><br>
+      <input type="button" value="Submit" class="btn">
+		</section>
+
+		<section class="form__section">
+			<h3 class="form__section_title">Account details</h3>
+
+
+			<label for="inp" class="inp">
+			  <input type="text" id="inp" class="margined" placeholder="&nbsp;" required>
+			  <span class="label">Username</span>
+			  <span class="focus-bg"></span>
+			</label>
+			<br>
+
+			<label for="inp" class="inp">
+			  <input type="email" id="inp" class="margined" placeholder="&nbsp;" required>
+			  <span class="label">Email </span>
+			  <span class="focus-bg"></span>
+			</label>
+			<br>
+
+			<label for="inp" class="inp">
+			  <input type="password" id="inp" class="margined" placeholder="&nbsp;" required>
+			  <span class="label">Password</span>
+			  <span class="focus-bg"></span>
+			</label>
+			<br>
+
+			<label for="inp" class="inp">
+			  <input type="password" id="inp" class="margined" placeholder="&nbsp;" required>
+			  <span class="label">Confirm password </span>
+			  <span class="focus-bg"></span>
+			</label>
+			<br>
+			<input type="checkbox" class="checkbox">
+			<label for="checkbox"> I accept terms and conditions</label>
+			<br>
+			<input type="button" value="Submit" class="btn">
+		</section>
+
+	</form>
+</body>
+</html>
